@@ -8,8 +8,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ResumeComponent } from './resume/resume.component';
 
 export const router: Routes = [
-    { path: '', redirectTo: 'about', pathMatch: 'full' },
-    { path: 'about', component: AboutComponent },
+    { path: '', component: AboutComponent },
     { path: 'projects', component: ProjectsComponent },
     { path: 'resume', component: ResumeComponent }
 ]
