@@ -1,13 +1,22 @@
-img {
-    width: 15rem;
-    /* margin: 0rem 2.5rem 4rem 2.5rem; */
-    margin-left: 2.5em;
-    margin-right: 2.5em;
+#profile-img {
+  width: 15em;
+  /* margin: 0rem 2.5rem 4rem 2.5rem; */
+  margin-left: 2.5em;
+  margin-right: 2.5em;
+  grid-area: image;
+}
+
+.text-container {
+text-align: left;
+grid-area: txcontainer;
 }
 
 #profile {
   padding-top: 4em;
   padding-bottom: 6em;
+  display: grid;
+  grid-template-areas: "image txcontainer";
+  grid-template-rows: auto auto;
 }
 
 #name {
@@ -25,7 +34,10 @@ img {
 }
 
 @media only screen and (max-width: 750px)   {
-  img {
+  #profile {
+    display: block;
+  }
+  #profile-img {
     display: block;
     margin-left: auto;
     margin-right: auto;
