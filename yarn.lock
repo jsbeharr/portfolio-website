@@ -9,13 +9,13 @@
   dependencies:
     tslib "^1.7.1"
 
-"@angular/cli@1.2.4":
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/@angular/cli/-/cli-1.2.4.tgz#04f7c0d9a2ee2cfd7cc11a3c1a89b87f03e14f8e"
-  integrity sha512-LPreYlZps9vIYIQCAXBKTLWnYa/v+LAkE61xIDN8u7G04GaLg2J2cFV0h/Zbe7da4ecchzU17KeJuEoDQ69dQg==
+"@angular/cli@1.2.6":
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/@angular/cli/-/cli-1.2.6.tgz#76ee20f72342d9b61e1a2554f567c99e67dcf14b"
+  integrity sha1-du4g9yNC2bYeGiVU9WfJnmfc8Us=
   dependencies:
     "@ngtools/json-schema" "1.1.0"
-    "@ngtools/webpack" "1.5.3"
+    "@ngtools/webpack" "1.5.5"
     autoprefixer "^6.5.3"
     chalk "^2.0.1"
     circular-dependency-plugin "^3.0.0"
@@ -40,7 +40,6 @@
     inquirer "^3.0.0"
     isbinaryfile "^3.0.0"
     istanbul-instrumenter-loader "^2.0.0"
-    json-loader "^0.5.4"
     karma-source-map-support "^1.2.0"
     less "^2.7.2"
     less-loader "^4.0.2"
@@ -160,12 +159,11 @@
   resolved "https://registry.yarnpkg.com/@ngtools/json-schema/-/json-schema-1.1.0.tgz#c3a0c544d62392acc2813a42c8a0dc6f58f86922"
   integrity sha1-w6DFRNYjkqzCgTpCyKDcb1j4aSI=
 
-"@ngtools/webpack@1.5.3":
-  version "1.5.3"
-  resolved "https://registry.yarnpkg.com/@ngtools/webpack/-/webpack-1.5.3.tgz#86c1834b11059e91a48543e89cc697ad1f649bd2"
-  integrity sha512-Lu8PaCEeBR+LJWy/P/H/9kxsUNRH6ZxrrTP7yuetfawUO+CsN9z035pS8AQWSxbMuutHnzPClnL1wPq5PvoeHw==
+"@ngtools/webpack@1.5.5":
+  version "1.5.5"
+  resolved "https://registry.yarnpkg.com/@ngtools/webpack/-/webpack-1.5.5.tgz#d6e2a933184015653de3be33d38437fdd81009e7"
+  integrity sha1-1uKpMxhAFWU9474z04Q3/dgQCec=
   dependencies:
-    enhanced-resolve "3.3.0"
     loader-utils "^1.0.2"
     magic-string "^0.22.3"
     source-map "^0.5.6"
